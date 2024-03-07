@@ -36,10 +36,25 @@ ol, ul {
 
 .resources-section{
     width:74.375vw;
-    background-color:white;
+    background-color:#333333;
+    color:white;
     margin-left:auto;
     margin-right:auto;
     overflow:auto;
+}
+
+.resources-section h3{
+    color:white;
+}
+
+.spacer-container{
+    margin-left:1em;
+    margin-right:1em;
+    margin-top:1em;
+}
+
+.feature-icon{
+    color:red;
 }
 
 .resources-section .row{
@@ -57,7 +72,7 @@ body > main > div.resources-section > div:nth-child(1){
 }
 
 .feature{
-    border:2px black solid;
+    /*border:2px black solid;*/
     padding-left:0;
     padding-right:0;
     width:33.33%;
@@ -108,6 +123,7 @@ body > main > div.resources-section > div:nth-child(1){
     list-style-type:none;
     display:flex;
     justify-content:space-around;
+    margin-bottom:0;
 }
 .quick-nav-item{
     font-size:1.15em;
